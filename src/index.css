@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@theme {
+  --font-sans: "Outfit", "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .vertical-rl {
+    writing-mode: vertical-rl;
+  }
+  
+  .animate-pulse-slow {
+    animation: pulse 8s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  .shadow-orange-glow {
+    box-shadow: 0 0 20px rgba(234, 88, 12, 0.3);
+  }
+
+  .skew-10 {
+    transform: skewX(-10deg);
+  }
+  
+  .skew-10-reverse {
+    transform: skewX(10deg);
+  }
+}
+
+/* Custom Text Shadow for high-impact headers */
+.text-glow {
+  text-shadow: 0 0 20px rgba(234, 88, 12, 0.5);
+}
+
+/* Smooth custom scrollbar for dark theme */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #09090b;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ea580c;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #c2410c;
+}
+
