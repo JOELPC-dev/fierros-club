@@ -36,7 +36,7 @@ export default function Location() {
               <Phone className="text-red-600 w-6 h-6 mt-1 flex-shrink-0" />
               <div>
                 <h4 className="font-black italic text-lg">CONTACTO</h4>
-                <p className="text-zinc-400">+51 921 013 929</p>
+                <p className="text-zinc-400">+51 933 136 112</p>
               </div>
             </div>
           </div>

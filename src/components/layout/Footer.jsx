@@ -58,7 +58,7 @@ export default function Footer({ scrollTo }) {
       
       {/* WhatsApp Flotante */}
       <a 
-        href="https://wa.me/51921013929" 
+        href="https://wa.me/51933136112" 
         target="_blank" 
         rel="noreferrer"
         className="fixed bottom-6 right-6 z-50 bg-green-500 p-4 rounded-full shadow-2xl hover:scale-110 transition-transform"

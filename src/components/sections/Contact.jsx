@@ -16,11 +16,11 @@ export default function Contact() {
           </div>
 
           <div className="space-y-6">
-            <a href="https://wa.me/51921013929" className="flex items-center gap-4 text-zinc-300 hover:text-red-600 transition-colors">
-              <MessageSquare className="text-red-600" /> +51 921 013 929
+            <a href="https://wa.me/51933136112" className="flex items-center gap-4 text-zinc-300 hover:text-red-600 transition-colors">
+              <MessageSquare className="text-red-600" /> +51 933 136 112
             </a>
-            <a href="mailto:fierrosclub@gmail.com" className="flex items-center gap-4 text-zinc-300 hover:text-red-600 transition-colors">
-              <Mail className="text-red-600" /> fierrosclub@gmail.com
+            <a href="mailto:fierrossclub@gmail.com" className="flex items-center gap-4 text-zinc-300 hover:text-red-600 transition-colors">
+              <Mail className="text-red-600" /> fierrossclub@gmail.com
             </a>
           </div>
 
@@ -38,7 +38,7 @@ export default function Contact() {
           <div className="absolute inset-0 border border-red-600/0 group-hover:border-red-600/50 transition-all duration-500 pointer-events-none"></div>
           
           <form 
-            action="https://formsubmit.co/fierrosclub@gmail.com" 
+            action="https://formsubmit.co/fierrossclub@gmail.com" 
             method="POST"
             className="grid gap-6 relative z-10"
           >
