@@ -64,10 +64,10 @@ export default function About() {
             className="text-zinc-300 text-base md:text-lg lg:text-xl leading-relaxed mb-12 max-w-2xl mx-auto md:mx-0"
           >
             Forgiados en el corazón de Huancayo, Fierros Club no es solo un gimnasio; es un movimiento de 
-            <span className="text-white font-bold italic">Fuerza Real</span>. 
+            <span className="text-white font-bold italic"> Fuerza Real</span>. 
             Con años de trayectoria, entendemos que el poder no se regala, se conquista gota a gota, 
             repetición tras repetición. No vendemos promesas vacías; proporcionamos el templo donde 
-            <span className="text-red-600 font-bold italic">forjarás un cuerpo legendario</span>. 
+            <span className="text-red-600 font-bold italic"> forjarás un cuerpo legendario</span>. 
             Aquí no hay excusas, solo resultados crudos y poderosos.
           </motion.p>
 

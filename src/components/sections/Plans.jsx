@@ -9,14 +9,14 @@ export default function Plans({ scrollTo }) {
   const plans = [
     { 
       title: "Promo Estudiante", 
-      price: "S/ 60", 
+      price: "S/ 49.90", 
       desc: "¡Ponte fuerte cerca de ti!", 
       feats: ['Sin matrícula', 'Eres bienvenido', 'Presenta tu carnet'], 
       image: promoEstudiante 
     },
     { 
       title: "Promo Vecino", 
-      price: "S/ 60", 
+      price: "S/ 59.90", 
       desc: "¡Fuerza real, cerca de ti!", 
       feats: ['Sin matrícula', 'Eres bienvenido', 'Rutinas guiadas', '+Comunidad'], 
       featured: true,
@@ -24,7 +24,7 @@ export default function Plans({ scrollTo }) {
     },
     { 
       title: "Plan Duo", 
-      price: "S/ 110", 
+      price: "S/ 109.90", 
       desc: "Entrena en pareja y ahorra", 
       feats: ['Precio especial en pareja', 'Ideal para amigos y parejas'], 
       image: promoDuo 

@@ -43,6 +43,7 @@ export default function Contact() {
             className="grid gap-6 relative z-10"
           >
             <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_next" value="https://fierrosclub.vercel.app" />
 
             {/* Campo Nombres y Apellidos */}
             <div className="relative">
